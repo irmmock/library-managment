@@ -53,9 +53,9 @@ public class User {
         return isAdmin;
     }
 
-//    public void setAdmin(boolean admin) {
-//        isAdmin = admin;
-//    }
+    public void setAdmin(boolean admin) {
+        isAdmin = admin;
+    }
 
 
     @Override
@@ -66,6 +66,6 @@ public class User {
                 ", passwordHash='" + passwordHash + '\'' +
                 ", email='" + email + '\'' +
                 ", isAdmin=" + isAdmin +
-                '}';
+                '}' + '\n';
     }
 }
